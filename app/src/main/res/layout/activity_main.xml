@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="udacity.com.helloandroid.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/udacitylogo" />
+            <TextView
+                style="@style/Utp"
+                android:text="@string/stringUtp"
+                android:layout_alignBottom="@+id/background"
+                android:padding="20dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+            <TextView
+                style="@style/Adress"
+                android:text="@string/stringLogo"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                style="@style/Adress"
+                android:text="@string/stringAddress"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                style="@style/Adress"
+                android:text="@string/stingPhone"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"/>
+            <TextView
+                style="@style/Adress"
+                android:text="@string/stringWeb"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+
+            />
+        <Button
+            style="@style/Button"
+            android:text="@string/stringButton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView >
