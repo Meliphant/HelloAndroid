@@ -23,10 +23,10 @@
         <item name="android:textColor">@color/colorBackground</item>
         <item name="android:fontFamily">"Open Sans,sans-serif"</item>
         <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginBottom">10dp</item>
         <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:padding">8dp</item>
     </style>
     <style name="Utp">
         <item name="android:layout_width">wrap_content</item>
@@ -38,13 +38,5 @@
         <item name="android:layout_marginBottom">20dp</item>
         <item name="android:layout_marginTop">40dp</item>
         <item name="android:paddingLeft">20dp</item>
-    </style>
-    <style name="ChatIcon">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">bottom</item>
-        <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:layout_margin">10dp</item>
     </style>
 </resources>

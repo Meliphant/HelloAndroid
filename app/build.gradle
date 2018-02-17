@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: com.udacity.AssessmentPlugin
 
 ext.emailAddress = "op.personal.analytics@gmail.com"
 

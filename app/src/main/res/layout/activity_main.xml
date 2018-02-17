@@ -7,10 +7,6 @@
     android:fillViewport="true"
     tools:context="udacity.com.helloandroid.MainActivity">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -22,7 +18,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/gradient"
                 android:gravity="center_horizontal"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:elevation="8dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -35,12 +32,6 @@
                     android:text="@string/stringUtp" />
             </LinearLayout>
 
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="8dp"
-                android:background="@drawable/shadow" />
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,38 +41,34 @@
 
                 <TextView
                     style="@style/Adress"
-                    android:paddingTop="20dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
                     android:text="@string/stringLogo"
                     android:textStyle="bold" />
 
                 <TextView
                     style="@style/Adress"
-                    android:paddingTop="10dp"
+                    android:layout_weight="1"
                     android:text="@string/stringAddress" />
 
                 <TextView
                     style="@style/Adress"
                     android:autoLink="phone"
-                    android:paddingTop="10dp"
+                    android:layout_weight="1"
                     android:text="@string/stingPhone"
                     android:textColorLink="@color/colorText" />
 
                 <TextView
                     style="@style/Adress"
+                    android:layout_weight="1"
                     android:autoLink="web"
-                    android:paddingTop="10dp"
                     android:text="@string/stringWeb"
                     android:textColorLink="@color/colorText" />
 
                 <Button
                     style="@style/Button"
+                    android:layout_weight="1"
                     android:text="@string/stringButton" />
             </LinearLayout>
         </LinearLayout>
-
-        <ImageView
-            style="@style/ChatIcon"
-            android:src="@drawable/ic_launcher"
-            />
-    </RelativeLayout>
 </ScrollView>
